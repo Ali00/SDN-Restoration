@@ -18,7 +18,7 @@ from networkx.algorithms import community
 
 #Modularity of ERnet = 0.533
 G = nx.Graph()
-#The Germany 50 Topology 
+#The ERnet graph 
 G.add_edges_from([ (1,2),(1,5),(1,4),(3,5),(3,13),(3,20),(12,14),(10,12),(10,8),(7,10),
 (10,11),(7,9),(2,3),(4,3),(5,7),(5,6),(6,8),(6,13),(13,15),(13,16),(13,12),(15,14),
 (14,37),(20,19),(20,21),(16,19),(16,17),(19,18),(21,18),(18,17),(17,34),(17,15),(37,11),
@@ -241,7 +241,7 @@ if __name__ == "__main__":
 #------------------------------------------------------------------------------
 
 #------Test the connectivity after removing a link from a community------------
-
+#Alg.2
 Sucess_Rate=0 #counter to measure the number of success
 Fail_rate=0   #counter to measure the number of failure
 for i in range(len(d)):
@@ -424,15 +424,15 @@ def Path():
 print '_______________________________________________________'
 Path()
 #print nx.shortest_path(G2, source, dest)
-print 'Algo.2 Path', nx.shortest_path(G2, source, dest)
-print 'Algo.2 Path Cost', len(nx.shortest_path(G2, source, dest))-1
-print 'Algo.2 Path Operation', len(Computed_P ) + len(nx.shortest_path(G2, source, dest))
+print 'Algo.1 Path', nx.shortest_path(G2, source, dest)
+print 'Algo.1 Path Cost', len(nx.shortest_path(G2, source, dest))-1
+print 'Algo.1 Path Operation', len(Computed_P ) + len(nx.shortest_path(G2, source, dest))
 print '_______________________________________________________'
 
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
-print 'Algo.4'
+print 'Algo.3'
 mid_P=[]
 
 # Finding the mid point of the Largest_P
@@ -444,17 +444,7 @@ else:                                    # When the number of nodes in "Largest_
     mid_P.append( Computed_P[(len(Computed_P)/2)])           #Captering the second mid point
     print "The two mid points of the path are: ", mid_P
 #------------------------------------------------------------------------------------------------------
-#Procedure to compute the time of path discovery
 print "-------------------------------------------------------------------------------------"   
-#paths = list(nx.shortest_simple_paths(topology2, 165, 199))
-#print "Hi", paths [1]
-
-#topology2.remove_edge(10, 7)
-#print nx.dijkstra_path (topology2, 10, 7)   #N-to-N
-#print nx.dijkstra_path (topology2, 235, 5)   #E-to-mid
-#print nx.dijkstra_path (topology2, 235, 266) #E-to-E
-
-
 '''
 #Link down scenario
 
@@ -497,21 +487,16 @@ else:
     
 #------------------------------------------------------------------------------
 print '_______________________________________________________'
-#Algorithm 5
-print 'Algo.5'
+#Algorithm 4
+print 'Algo.4'
 n_path = nx.shortest_path(G2, f_link[0], f_link[1]) 
 print n_path
-print 'Algo.5 Path Cost', (len(Computed_P)-2) + len (n_path)-1 
-print 'Algo.5 Path Operation', 2 + len(n_path)
+print 'Algo.4 Path Cost', (len(Computed_P)-2) + len (n_path)-1 
+print 'Algo.4 Path Operation', 2 + len(n_path)
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
-
-
 def random_link(List, Path = [], *args):
     return random.choice(list)
-
-
-
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Procedure to check whether there is a path between all possible pairs in the Network Graph
@@ -544,9 +529,6 @@ for i in range (nx.number_of_nodes(G2)):
     #print "**************Done with node", k,"********************"
 print "Finish Testing"
 print len(d1)
-#------------------------------------------------------------------------------
-#------------------------------------------------------------------------------
-#------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 def Path_Cost_alg3(Path1, Path2, f_link, *args):
    #return (len(Path2)-1) 
