@@ -75,6 +75,7 @@ class Switch (EventMixin):
     self.dpid = None
     self._listeners = None
     self._connected_at = None
+    #To test the longest shortest path of ERnet topology
     mac_map[str("00:00:00:00:00:01")]=(1,1)
     mac_map[str("00:00:00:00:00:02")]=(36,1)
 
