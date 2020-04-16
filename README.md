@@ -28,3 +28,6 @@ The remaining communities are summarized: Blue (5,9), Green (4,8), Orange (8,10)
     </figure>
   </div>
 </div>
+
+
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".`
