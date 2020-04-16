@@ -31,7 +31,7 @@ In a path anatomy the sequence of routers that form the path can be partitioned 
   <div class="subcontainer">
     <figure>
       <p align="center">
-      <img  src="https://user-images.githubusercontent.com/12594727/79401058-efdc7c80-7f7f-11ea-96f6-1c47e2d206bf.png" width="450" height="160"/>
+      <img  src="https://user-images.githubusercontent.com/12594727/79401131-2914ec80-7f80-11ea-8435-662617e618d1.png" width="450" height="160"/>
       <figcaption><p align="center">Fig.2: Path anatomy shows the rm as a middle router between the source, rs, and the destination, rd, routers.</figcaption>
     </figure>
   </div>
