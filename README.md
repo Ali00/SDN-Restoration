@@ -20,12 +20,24 @@ In a path anatomy the sequence of routers that form the path can be partitioned 
     <figure>
       <p align="center">
       <img  src="https://user-images.githubusercontent.com/12594727/79400752-fdddcd80-7f7e-11ea-89eb-e6bd8b49ccac.png" width="450" height="160"/>
-      <figcaption><p align="center">Fig.2: Path anatomy.</figcaption>
+      <figcaption><p align="center">Fig.2: Path anatomy shows the rm as a middle router between the source, rs, and the destination, rd, routers.</figcaption>
     </figure>
   </div>
 </div>
 
 ### Community detection: 
+
+<div class="container">
+  <div class="subcontainer">
+    <figure>
+      <p align="center">
+      <img  src="https://user-images.githubusercontent.com/12594727/79401058-efdc7c80-7f7f-11ea-96f6-1c47e2d206bf.png" width="450" height="160"/>
+      <figcaption><p align="center">Fig.2: Path anatomy shows the rm as a middle router between the source, rs, and the destination, rd, routers.</figcaption>
+    </figure>
+  </div>
+</div>
+
+
 
 ### Network topology: 
 The network is modelled as an undirected graph G(V,E), hence, we utilised the NetworkX tool, https://networkx.github.io/, (version 1.11). In this demonstration, we provide as an example the European Reference network (ERnet) to represent the data plane topology. However, we provide three Brite simulated topologies that we generated via Waxman model.
