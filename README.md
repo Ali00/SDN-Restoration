@@ -26,13 +26,14 @@ In a path anatomy the sequence of routers that form the path can be partitioned 
 </div>
 
 ### Community detection: 
+By dividing the network into N number of communities, we make the assumption that when a link failure event occurs, only one community will suffer from that particular failure. Therefore, the controller will need to update the only routers located in the affected community.
 
 <div class="container">
   <div class="subcontainer">
     <figure>
       <p align="center">
       <img  src="https://user-images.githubusercontent.com/12594727/79401131-2914ec80-7f80-11ea-8435-662617e618d1.png" width="450" height="160"/>
-      <figcaption><p align="center">Fig.2: Path anatomy shows the rm as a middle router between the source, rs, and the destination, rd, routers.</figcaption>
+      <figcaption><p align="center">Fig.2: Illustration of community detection and graph partitioning process: A good solution (RHS) has a high number of links between members of the same community and a low number of links to other communities..</figcaption>
     </figure>
   </div>
 </div>
