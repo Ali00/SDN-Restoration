@@ -19,7 +19,7 @@ In a path anatomy the sequence of routers that form the path can be partitioned 
   <div class="subcontainer">
     <figure>
       <p align="center">
-      <img  src="https://user-images.githubusercontent.com/12594727/79400752-fdddcd80-7f7e-11ea-89eb-e6bd8b49ccac.png" width="450" height="200"/>
+      <img  src="https://user-images.githubusercontent.com/12594727/79400752-fdddcd80-7f7e-11ea-89eb-e6bd8b49ccac.png" width="450" height="160"/>
       <figcaption><p align="center">Fig.2: Path anatomy.</figcaption>
     </figure>
   </div>
