@@ -58,7 +58,10 @@ The remaining communities are summarized: Blue (5,9), Green (4,8), Orange (8,10)
 
 ### Requirements:
 You will need to install the following:
-1. Mininet
-2. POX
+- Mininet emulator
+- POX controller
+- NetworkX V.1.11
+- FNSS simulator: https://fnss.github.io/ in order to convert Brite topology into Mininet.
+- igraph
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".`
