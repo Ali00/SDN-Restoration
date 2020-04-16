@@ -1,4 +1,3 @@
-#This topology parser is compatable with Algorithm 2 (communities)
 from pox.core import core
 import pox.openflow.libopenflow_01 as of
 from pox.lib.revent import *
