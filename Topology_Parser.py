@@ -67,9 +67,9 @@ class parser(EventMixin):
              E= nx.number_of_edges(self.G)
              print "Number of Edges", E
 
-             if (N == 37) and (E == 57):
+             if (N == 37) and (E == 57): #ERnet topology
 
-                 print "Graph is ready now :-) "
+                 print "Graph is ready now . . ."
                  print "Graph nodes are: ",self.G.nodes()
                  #nx.draw(self.G, with_labels=True)
                  #plt.show()
@@ -78,7 +78,6 @@ class parser(EventMixin):
             print "no such complete Graph yet..."
     #---------------------------------------------------------
     #---------------------------------------------------------
-
 
     def pt(self, g, membership=None):
 
