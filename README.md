@@ -79,7 +79,7 @@ You will need to install the following:
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".` <br>
 `@article{malik2020rapid,` <br>
 `title={Rapid restoration techniques for software-defined networks},` <br>
-`author={Malik, Ali and de Frein, Ruiri and Aziz, Benjamin},` <br>
+`author={Malik, Ali and de Fréin, Ruairí and Aziz, Benjamin},` <br>
 `journal={Applied Sciences},` <br>
 `year={2020},`<br>
 `publisher={Multidisciplinary Digital Publishing Institute}}` <br>
