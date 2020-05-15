@@ -82,5 +82,5 @@ You will need to install the following:
 `author={Malik, Ali and de Fréin, Ruairí and Aziz, Benjamin},` <br>
 `journal={Applied Sciences},` <br>
 `year={2020},`<br>
-`publisher={Multidisciplinary Digital Publishing Institute}}` <br>
+`publisher={MDPI}}` <br>
  https://www.mdpi.com/2076-3417/10/10/3411
