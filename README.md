@@ -76,4 +76,4 @@ You will need to install the following:
 - FNSS simulator: https://fnss.github.io/ in order to convert Brite topologies into Mininet.
 - igraph
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".`
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".` (https://www.mdpi.com/2076-3417/10/10/3411)
