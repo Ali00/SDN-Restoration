@@ -83,4 +83,4 @@ You will need to install the following:
 `journal={Applied Sciences},` <br>
 `year={2020},`<br>
 `publisher={Multidisciplinary Digital Publishing Institute}}` <br>
- (https://www.mdpi.com/2076-3417/10/10/3411)
+ https://www.mdpi.com/2076-3417/10/10/3411
