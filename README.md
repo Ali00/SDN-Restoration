@@ -76,17 +76,11 @@ You will need to install the following:
 - FNSS simulator: https://fnss.github.io/ in order to convert Brite topologies into Mininet.
 - igraph
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".
-
-@article{malik2020rapid,
-
-  title={Rapid restoration techniques for software-defined networks},
-  
-  author={Malik, Ali and de Frein, Ruiri and Aziz, Benjamin},
-  
-  journal={Applied Sciences},
-  
-  year={2020},
-  
-  publisher={Multidisciplinary Digital Publishing Institute}
-}` (https://www.mdpi.com/2076-3417/10/10/3411)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `If you use this framework or any of its code in your work then, please cite the following publication: "Rapid Restoration Techniques for Software-Defined Networks".` <br>
+`@article{malik2020rapid,` <br>
+`title={Rapid restoration techniques for software-defined networks},` <br>
+`author={Malik, Ali and de Frein, Ruiri and Aziz, Benjamin},` <br>
+`journal={Applied Sciences},` <br>
+`year={2020},`<br>
+`publisher={Multidisciplinary Digital Publishing Institute}}` <br>
+ (https://www.mdpi.com/2076-3417/10/10/3411)
